@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Vinit Kumar
+title: 小面包爸爸的日记本
 ---
 
-Your introduction here
+小面包爸爸的日记本
