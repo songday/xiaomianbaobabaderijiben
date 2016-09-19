@@ -1,5 +1,5 @@
 name: 小面包爸爸的日记本
-highlighter: true
+highlighter: rouge
 url: https://songday.github.io/xiaomianbaobabaderijiben/
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 9
