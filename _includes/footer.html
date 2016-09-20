@@ -7,6 +7,9 @@
   {% else %}
     <span class="next"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></span>
   {% endif %}
+
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
       <a href="/" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
