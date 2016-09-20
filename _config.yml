@@ -1,7 +1,8 @@
 name: 小面包爸爸的日记本
 highlighter: rouge
 url: https://songday.github.io/xiaomianbaobabaderijiben/
-gems: [octopress-paginate,  jekyll-gist]
+baseurl: /xiaomianbaobabaderijiben
+gems: [jekyll-gist]
 # , jekyll-paginate
 paginate: 9
 paginate_path: "/xiaomianbaobabaderijiben/page:num/"
@@ -12,6 +13,10 @@ disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
 #url:
+
+group :jekyll_plugins do
+  gem 'octopress-paginate'
+end
 
 # Owner/author information
 owner:
