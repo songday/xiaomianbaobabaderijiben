@@ -3,7 +3,7 @@ highlighter: rouge
 url: https://songday.github.io/xiaomianbaobabaderijiben/
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 9
-paginate_path: "page:num"
+paginate_path: "/xiaomianbaobabaderijiben/page:num/"
 description:     小面包爸爸的日记本
 intro: 小面包爸爸的日记本
 logo:             logo.png
