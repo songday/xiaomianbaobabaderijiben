@@ -1,6 +1,6 @@
 name: 小面包爸爸的日记本
 highlighter: rouge
-url: https://songday.github.io/xiaomianbaobabaderijiben
+url: https://songday.github.io/xiaomianbaobabaderijiben/
 baseurl: /xiaomianbaobabaderijiben
 gems: [octopress-paginate, jekyll-gist]
 # , jekyll-paginate
