@@ -5,7 +5,7 @@ baseurl: /xiaomianbaobabaderijiben
 gems: [octopress-paginate, jekyll-gist]
 # , jekyll-paginate
 paginate: 9
-paginate_path: "/xiaomianbaobabaderijiben/page:num/"
+# paginate_path: "/xiaomianbaobabaderijiben/page:num/"
 description:     小面包爸爸的日记本
 intro: 小面包爸爸的日记本
 logo:             logo.png
