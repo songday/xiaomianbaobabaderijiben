@@ -14,7 +14,7 @@
     {% if paginator.page == 2 %}
       <a href="{{site.url}}" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
     {% else %}
-      <a href="{{site.url}}{{paginator.previous_page_path}}/" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
+      <a href="{{site.url}}{{paginator.previous_page_path}}" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
     {% endif %}
   {% else %}
     <span class="previous"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></span>
