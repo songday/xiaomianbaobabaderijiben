@@ -3,7 +3,7 @@
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a href="{{site.url}}page{{paginator.previous_page}}/" class="older"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></a>
+    <a href="{{site.url}}page{{paginator.next_page}}/" class="older"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></a>
   {% else %}
     <span class="next"><span class="mega-octicon octicon-playback-rewind" style="min-width: 32px;"></span></span>
   {% endif %}
@@ -14,7 +14,7 @@
     {% if paginator.page == 2 %}
       <a href="{{site.url}}" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
     {% else %}
-      <a href="{{site.url}}page{{paginator.previous_page_path}}/" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
+      <a href="{{site.url}}page{{paginator.previous_page}}/" class="newer"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></a>
     {% endif %}
   {% else %}
     <span class="previous"><span class="mega-octicon octicon-playback-fast-forward" style="min-width: 32px;"></span></span>
