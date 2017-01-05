@@ -32,7 +32,9 @@ categories:
 
 从 http://bearwindows.zcm.com.au/vbe9x.htm 下载最新驱动包，然后解压出来，用 UltraISO 打包成 ISO 用 VirtualBox 加载。
 
-最新的通用显卡驱动没有 Uni 的文件夹了，我用的是 032MB 目录下的驱动，这个是对应的 32MB 显存的显卡。32MB够用了，我第一个显卡还是 8M 的 Intel i740
+最新的通用显卡驱动没有 Uni 的文件夹了，我用的是 032MB 目录下的驱动，这个是对应的 32MB 显存的显卡。在 VirtualBox 里我只分配了 32MB，够用了，我第一个显卡还是 8M 的 Intel i740
+
+Windows 98 安装方式和这个一样，不过安装重启不用卸载 ISO。
 
 最后上一张最后的 Windows ME 的桌面
 <img src="{{ site.url }}Emoticons/2017/WindowsME.png" alt="" align="center" />
